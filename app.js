@@ -78,17 +78,17 @@ console.log(arr3)
 
 
 var arr4 = [1, 2, 3, 7]
-var count = 0
+var check = 0
 for (var i = 0; i < arr4.length; i++) {
     if (arr4[i] > arr4[i + 1]) {
-        count++
+        check++
     }
 }
-if (count == 0) {
+if (check == 0) {
     console.log("This array is in ascending order")
 }
 else {
-    console.log("This array is in descending order")
+    console.log("This array is not in ascending order")
 }
 
 console.log("Reversed array: ")
